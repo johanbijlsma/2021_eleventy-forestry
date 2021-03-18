@@ -8,7 +8,7 @@
     {% bundledcss %}
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500&family=Oswald:wght@300&display=swap" rel="stylesheet">
 
     <title>
       {{  title  | escape }}
@@ -51,17 +51,11 @@
 
   </head>
   <body>
-    <div class="layout-wrapper">
+    <div class=" container">
 
-      <header class="header">
-        <div class="header__content">
-          <h1 class="site-title">
-            <a href={{ "/" | url }}>
-              {{site.name}}
-            </a>
-          </h1>
-
-          {% if site.headerLinks %}
+      <header class="hero">
+<img src="{{ image | url }}" alt="" class="hero-image">
+      {% if site.headerLinks %}
             <nav class="nav">
               <ul class="nav__list">
                 {% for item in site.headerLinks %}
@@ -84,6 +78,12 @@
             </nav>
 
           {% endif %}
+        <div class="header__content">
+          <h1 class="site-title">
+              {{site.name}}
+          </h1>
+
+
 
         </div>
       </header>
@@ -129,9 +129,9 @@
           {% if site.showFooterAttribution %}
             <p class="footer__attribution">
           Created by
-      <a href="https://twitter.com/yinkakun" target="_blank" rel="noopener">Yinka,</a>
+      <a href="https://twitter.com/johanbijlsma" target="_blank" rel="noopener">Johan Bijlsma,</a>
        Powered by <a href="https://www.11ty.dev" target="_blank" rel="noopener">11ty,</a>
-        Checkout <a href="https://github.com/yinkakun/eleventy-duo" target="_blank" rel="noopener noreferrer">project's github repo </a>
+        Checkout <a href="https://github.com/johanbijlsma" target="_blank" rel="noopener noreferrer">project's github repo </a>
             </p>
           {% endif %}
 
