@@ -1,14 +1,13 @@
 {
 	"name": "Johan Bijlsma",
 	"description": "Johan's personal site, Blog and portfolio. Contains stuff about Front-end, Drums, Coffee and Family.",
-	"url": "https://eleventyduo.netlify.app",
+	"url": "https://blissful-feynman-113f65.netlify.app/",
 	"author": {
 		"name": "Johan Bijlsma",
 		"email": "johan@johanbijlsma.nl",
 		"twitterHandle": "johanbijlsma"
 	},
 	"defaultSocialImage": "/images/johan-400x400.jpg",
-	"heroImage": "/images/hero.jpg",
 	"headerLinks": [
 		{
 			"text": "Home",

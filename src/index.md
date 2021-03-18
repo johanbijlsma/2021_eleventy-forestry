@@ -2,6 +2,7 @@
 layout: home
 title: 'Johan Bijlsma'
 image: './images/hero.jpg'
+subline: 'Front-end developer... | Blogger... | Dad... | Musician... | Coffee lover...'
 ---
 
 ## About Johan

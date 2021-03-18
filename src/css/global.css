@@ -236,6 +236,8 @@ body {
 .container {
 	max-width: 1024px;
 	margin: 0 auto;
+	padding: 12px;
+	overflow-x: hidden;
 }
 
 .container header.hero {
@@ -254,9 +256,10 @@ body {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	height: auto;
+	height: 100%;
 	object-fit: cover;
 	z-index: 0;
+	object-position: bottom center;
 }
 
 .hero > * {
@@ -278,9 +281,8 @@ body {
 .hero h1 {
 	color: var(--white);
 	text-shadow: 1px 1px 5px var(--blue), 3px 3px 3px var(--red);
-	margin: 10vh auto;
-	/* font-size: 8vmax; */
-	font-size: max(8vmax, 30px);
+	margin: 10vh auto 3vh;
+	font-size: min(8vmax, 100px);
 	font-family: var(--headingfont);
 	grid-area: title;
 }
@@ -290,9 +292,9 @@ body {
 	position: relative;
 	z-index: 2;
 	grid-area: subline;
-	font-size: 1.25rem;
+	font-size: 1rem;
 	line-height: 1.5;
-	margin: 2rem auto;
+	margin: 0.5rem auto 2rem;
 	max-width: 80%;
 }
 
@@ -516,9 +518,6 @@ button:focus {
 }
 
 @media (max-width: 640px) {
-	.container {
-		padding: 12px;
-	}
 	.row {
 		width: 80%;
 		margin: 0 auto;

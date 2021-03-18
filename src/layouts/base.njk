@@ -55,6 +55,7 @@
 
       <header class="hero">
 <img src="{{ image | url }}" alt="" class="hero-image">
+<p class="subline">{{ subline | safe }}</p>
       {% if site.headerLinks %}
             <nav class="nav">
               <ul class="nav__list">
