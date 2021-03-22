@@ -1,11 +1,12 @@
 ---
 title: Using animations and transitions to bring your website to life
-date: 2021-03-16T00:00:00+01:00
+date: 2021-03-16T00:00:00.000+01:00
 tags:
 - Greensock
 - CSS
 - animation
 description: ''
+image: "/images/animation.jpg"
 
 ---
 A couple off weeks ago, I organized a session for my colleagues at ShareValue to enlighten them with the ins & outs of transitions and animations.
