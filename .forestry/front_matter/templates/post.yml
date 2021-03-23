@@ -22,3 +22,4 @@ fields:
   description: The image that will published above the post
 pages:
 - src/posts/using-animations-and-transitions-to-bring-your-website-to-life.md
+- work/2021-personal-site-blog-and-portfolio.md
