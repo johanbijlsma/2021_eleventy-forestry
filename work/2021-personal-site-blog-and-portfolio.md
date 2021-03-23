@@ -6,7 +6,7 @@ tags:
 - netlify
 - forestry
 - 11ty
-description: my newest site made with 11ty (a Static Site Generator), forestry (a
+description: My newest site made with 11ty (a Static Site Generator), forestry (a
   headless CMS), and hosted on Netlify.
 image: "/images/macbook.jpg"
 
