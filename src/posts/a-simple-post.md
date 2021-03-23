@@ -1,10 +1,14 @@
 ---
 title: A simple post
-date: '2020-10-18'
-tags: [demo-content, simple-post]
-description: Meditation gentrify fam, yuccie kickstarter brunch vape. Pitchfork freegan biodiesel bicycle rights. Semiotics flexitarian four loko XOXO raw denim chartreuse.
----
+date: 2020-10-18
+tags:
+- demo-content
+- simple-post
+description: Meditation gentrify fam, yuccie kickstarter brunch vape. Pitchfork freegan
+  biodiesel bicycle rights. Semiotics flexitarian four loko XOXO raw denim chartreuse.
+image: "/images/sample.jpeg"
 
+---
 Meditation gentrify fam, yuccie kickstarter brunch vape. Pitchfork freegan biodiesel bicycle rights. Semiotics flexitarian four loko XOXO raw denim chartreuse. Cray ramps microdosing everyday carry bicycle rights
 
 ## How about a `<blockquote>`?
