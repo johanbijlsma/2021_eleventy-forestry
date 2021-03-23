@@ -17,3 +17,15 @@ fields:
 - type: file
   name: image
   label: image
+- name: repo_url
+  type: text
+  config:
+    required: false
+  label: Repo url
+  description: The url of the Git repository (if publicly available)
+- name: url
+  type: text
+  config:
+    required: false
+  label: URL
+  description: The URL to the project (if publicly available and still online )
