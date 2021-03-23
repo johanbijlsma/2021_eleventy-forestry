@@ -14,6 +14,13 @@ sections:
   new_doc_ext: md
   templates:
   - post
+- type: directory
+  path: work
+  label: work
+  create: all
+  match: "**/*"
+  templates:
+  - post
 - type: heading
   label: Pages
 - type: document
