@@ -238,12 +238,6 @@ body {
         background-color: var(--bg-color);
     }
     
-    body.dark {
-        color: var(--white);
-        background-color: var(--BG-Dark);
-        transition: color, background-color 500ms linear;
-    }
-    
     .container {
         max-width: 1024px;
         margin: 0 auto;
@@ -622,17 +616,130 @@ a:visited {
             margin: 10px 0;
         }
     }
+    /* body.dark {
+        --bg-color: rgb(38, 45, 58);
+        --text-color: #fff;
+        transition: color, background-color 500ms linear;
+    }
+
+    body.dark #toggleNight {
+        visibility: hidden;
+    }
+
+    body:not(.dark) #toggleNight {
+        visibility: visible;
+    }
+
+    body.dark main h1 {
+        color: var(--white);
+    }
+
+    body.dark main h2 {
+        color: var(--sand);
+    }
+
+    body.dark main h3 {
+        color: var(--turqois);
+    }
+
+    body.dark main.main>a {
+        color: var(--white);
+    }
+
+    body.dark aside>a {
+        color: var(--white) !important;
+    }
+
+    body.dark .card {
+        background-color: var(--red);
+    }
+
+    body.dark .card>* {
+        color: var(--white);
+    }
+
+    body.dark footer.footer ul li a {
+        color: var(--white) !important;
+    }
+
+    body.dark footer.footer ul li a:hover {
+        color: var(--sand) !important;
+    }
+
+    body.dark footer.footer .footer__attribution a {
+        color: var(--white) !important;
+    }
+
+    body.dark footer.footer .footer__attribution a:hover {
+        color: var(--sand) !important;
+    } */
     
     @media (prefers-color-scheme: dark) {
-         :root {
+        /* body:not(.dark) {
+            --bg-color: #fff;
+            --text-color: rgb(29, 28, 28);
+        }
+        body:not(.dark) #toggleDay {
+            visibility: visible;
+        }
+        body:not(.dark) #toggleNight {
+            visibility: hidden;
+        }
+        body:not(.dark) main h1 {
+            color: var(--white);
+        }
+        body:not(.dark) main h2 {
+            color: var(--sand);
+        }
+        body:not(.dark) main h3 {
+            color: var(--turqois);
+        }
+        body:not(.dark) main.main>a {
+            color: var(--white);
+        }
+        body:not(.dark) aside>a {
+            color: var(--white) !important;
+        }
+        body:not(.dark).card {
+            background-color: var(--red);
+        }
+        body:not(.dark).card>* {
+            color: var(--white);
+        }
+        body:not(.dark) footer.footer ul li a {
+            color: var(--white) !important;
+        }
+        body:not(.dark) footer.footer ul li a:hover {
+            color: var(--sand) !important;
+        }
+        body:not(.dark) footer.footer .footer__attribution a {
+            color: var(--white) !important;
+        }
+        body:not(.dark) footer.footer .footer__attribution a:hover {
+            color: var(--sand) !important;
+        } */
+        body {
+            transition: color, background-color 500ms linear;
             --bg-color: rgb(38, 45, 58);
             --text-color: #fff;
+        }
+        .hero nav a:hover {
+            color: var(--sand);
         }
         main h1 {
             color: var(--white);
         }
         main h2 {
             color: var(--sand);
+        }
+        main h3 {
+            color: var(--turqois);
+        }
+        main.main>a {
+            color: var(--white);
+        }
+        aside>a {
+            color: var(--white) !important;
         }
         .card {
             background-color: var(--red);

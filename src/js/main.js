@@ -1,6 +1,10 @@
 // const body = document.querySelector('body');
-// const toggleBtn = document.querySelector('#toggleBtn');
+// const toggleDay = document.querySelector('#toggleDay');
+// const toggleNight = document.querySelector('#toggleNight');
 
-// toggleBtn.addEventListener('click', (e) => {
+// toggleDay.addEventListener('click', (e) => {
+//     body.classList.toggle('dark');
+// })
+// toggleNight.addEventListener('click', (e) => {
 //     body.classList.toggle('dark');
 // })
