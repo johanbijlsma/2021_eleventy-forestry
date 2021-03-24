@@ -2,8 +2,51 @@
 layout: base.njk
 ---
 
-<div class="about">
-  <h1>About {{ name }}</h1>
-  <img src="{{ image | url }}" alt="" class="about__image">
-  {{ content | safe }}
-</div>
+<article class="work">
+  <header class="work__header">
+    <h1>{{ title }}</h1>
+    <div class="work__details">
+      <time datetime="{{ page.date | htmlDateString }}">
+        {{ page.date | readableDate }}
+      </time>
+      <span> | </span>
+      <span>{{ content | readingTime }} read</span>
+    </div>
+  </header>
+
+  <main class="work__content">
+    {{ content | safe }}
+  </main>
+
+  <aside class="work__aside">
+    <div class="work__tags">
+      {% for tag in tags | pageTags %}
+        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+        <a href="{{ tagUrl | url }}">#{{ tag }}</a>
+      {% endfor %}
+    </div>
+
+    <nav class="work__pagination">
+      {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
+      {%- if nextPost %}
+
+        <a href="{{ nextPost.url | url }}">
+          <span>←</span>
+          <span>{{ nextPost.data.title }}</span>
+        </a>
+
+      {% endif %}
+
+      {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
+      {%- if previousPost %}
+
+        <a href="{{ previousPost.url | url }}">
+          <span>{{ previousPost.data.title }}</span>
+          <span>→</span>
+        </a>
+
+      {% endif %}
+    </nav>
+  </aside>
+
+</article>
