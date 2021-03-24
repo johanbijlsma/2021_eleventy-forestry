@@ -1,0 +1,14 @@
+---
+layout: base.njk
+permalink: /projects/
+image: '../images/hero.jpg'
+---
+
+<h1>Portfolio</h1>
+
+<div class="tags">
+  {% include "tags-list.njk" %}
+</div>
+
+{% set projectslist = collections.projects %}
+{% include "projects-list.njk" %}

@@ -1,0 +1,71 @@
+{#
+<ul class="post-list card-container row">
+  {% for post in postslist | reverse %}
+    <li class="post-list__item onethird card">
+ <a class="post-list__read-more" href="{{ post.url }}">
+        {%- if post.data.image -%}
+        <img src="{{ post.data.image}}" alt="">
+        {%- endif -%}
+        <div class="post-list__meta">
+          <time datetime="{{ post.date | htmlDateString }}">
+            {{ post.date | readableDate }}
+          </time>
+          <span> | </span>
+          <span>{{ post | readingTime }} read</span>
+
+
+        <div class="post-list__tags">
+          {% for tag in post.data.tags %}
+            {%- if collections.tagList.indexOf(tag) != -1 -%}
+              {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+              <a href="{{ tagUrl | url }}">#{{ tag }}</a>
+            {%- endif -%}
+          {% endfor %}
+        </div>
+      </div>
+
+      <h3 class="post-list__title">
+        {{ post.data.title }}</a>
+      </h3>
+
+      <p class="post-list__excerpt">{{ post.templateContent | excerpt | safe  }}</p>
+
+      <button class="post-list__read-more">read article</button>
+
+     </a>
+    </li>
+  {% endfor %}
+</ul> #}
+
+<div class="row">
+ {% for work in projectslist | reverse %}
+<a href="{{ work.url }}" class="onethird card">
+        <img src="{{ work.data.image}}" alt="">
+         <div class="card__meta">
+          <time datetime="{{ work.date | htmlDateString }}">
+            {{ work.date | readableDate }}
+          </time>
+          <span> | </span>
+          <span>{{ work | readingTime }} read</span>
+      </div>
+
+                    <h3>{{ work.data.title }}</h3>
+
+        <div class="card__tags">
+          {% for tag in work.data.tags %}
+            {%- if collections.tagList.indexOf(tag) != -1 -%}
+              {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+              <span href="{{ tagUrl | url }}">#{{ tag }}</span>
+            {%- endif -%}
+          {% endfor %}
+        </div>
+  <p class="intro post-list__excerpt">{{ work.templateContent | excerpt | safe  }}</p>
+  <button>Continue</button>
+
+</a>
+  {% endfor %}
+
+</div>
+
+
+

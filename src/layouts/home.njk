@@ -39,7 +39,7 @@ layout: base
 <section class="post-list__wrapper">
   <h1 class="post-list__heading">Blogs about Front-end development</h1>
 
-  {% set postslist = collections.posts | head(-10) %}
+  {% set postslist = collections.posts | head(-3) %}
   {% include "posts-list.njk" %}
 
 </section>
