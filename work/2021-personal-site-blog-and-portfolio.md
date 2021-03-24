@@ -11,8 +11,4 @@ description: My newest site made with 11ty (a Static Site Generator), forestry (
 image: "/images/macbook.jpg"
 
 ---
-<<<<<<< HEAD
-lorem
-=======
 My newest site made with 11ty (a Static Site Generator), forestry (a headless CMS), and hosted on Netlify.
->>>>>>> e6f68b4c65e0be036f7d2dec961275f782963fab
