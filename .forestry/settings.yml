@@ -21,8 +21,9 @@ sections:
   label: work
   create: all
   match: "**/*"
+  exclude: "*.json"
   templates:
-  - post
+  - work
 - type: heading
   label: Pages
 - type: document
