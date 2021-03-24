@@ -17,10 +17,10 @@ sections:
 - type: heading
   label: Projects
 - type: directory
-  path: work
-  label: work
+  path: src/work
+  label: Work
   create: all
-  match: "**/*"
+  match: "*.md"
   exclude: "*.json"
   templates:
   - work
