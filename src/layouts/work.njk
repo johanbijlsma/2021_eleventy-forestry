@@ -3,75 +3,19 @@ layout: base.njk
 image: '../images/hero.jpg'
 
 ---
-{#
-<article class="work">
-  <header class="work__header">
-    <h1>{{ title }}</h1>
-    <div class="work__details">
-      <time datetime="{{ page.date | htmlDateString }}">
-        {{ page.date | readableDate }}
-      </time>
-      <span> | </span>
-      <span>{{ content | readingTime }} read</span>
-    </div>
-  </header>
 
-  <main class="work__content">
-    {{ content | safe }}
-  </main>
-
-  <aside class="work__aside">
-    <div class="work__tags">
-      {% for tag in tags | pageTags %}
-        {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-        <a href="{{ tagUrl | url }}">#{{ tag }}</a>
-      {% endfor %}
-    </div>
-
-    <nav class="work__pagination">
-      {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
-      {%- if nextPost %}
-
-        <a href="{{ nextPost.url | url }}">
-          <span>←</span>
-          <span>{{ nextPost.data.title }}</span>
-        </a>
-
-      {% endif %}
-
-      {%- set previousPost = collections.posts | getPreviousCollectionItem(page) %}
-      {%- if previousPost %}
-
-        <a href="{{ previousPost.url | url }}">
-          <span>{{ previousPost.data.title }}</span>
-          <span>→</span>
-        </a>
-
-      {% endif %}
-    </nav>
-  </aside>
-
-</article> #}
-
-{# <section class="post-list__wrapper">
-  <h1 class="post-list__heading">Portfolio</h1>
-
-  {% set projectslist = collections.projects | head(-3) %}
-  {% include "projects-list.njk" %}
-
-</section> #}
 
 
 <article class="post">
   <header class="post__header">
     <h1>{{ title }}</h1>
-    {# <div class="post__details">
+    <div class="post__details">
       <time datetime="{{ page.date | htmlDateString }}">
         {{ page.date | readableDate }}
       </time>
       <span> | </span>
       <span>{{ content | readingTime }} read</span>
-    </div> #}
+    </div>
   </header>
 
   <main class="post__content">
