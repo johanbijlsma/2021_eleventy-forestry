@@ -15,7 +15,7 @@ sections:
   templates:
   - post
 - type: heading
-  label: Work
+  label: Projects
 - type: directory
   path: work
   label: work
