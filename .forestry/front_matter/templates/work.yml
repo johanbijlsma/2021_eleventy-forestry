@@ -29,5 +29,3 @@ fields:
     required: false
   label: URL
   description: The URL to the project (if publicly available and still online )
-pages:
-- work/2021-personal-site-blog-and-portfolio.md

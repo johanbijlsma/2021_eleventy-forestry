@@ -17,7 +17,7 @@ sections:
 - type: heading
   label: Projects
 - type: directory
-  path: src/work
+  path: src/Projects
   label: Work
   create: all
   match: "*.md"
