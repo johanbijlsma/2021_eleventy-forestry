@@ -59,6 +59,7 @@
       {% if site.headerLinks %}
             <nav class="nav">
               <ul class="nav__list">
+                {# <button id="toggleBtn">toggle</button> #}
                 {% for item in site.headerLinks %}
                   {% set currentAttribute = '' %}
                   {% set externalAttribute = '' %}
@@ -70,7 +71,6 @@
                   {% if page.url == item.url %}
                     {% set currentAttribute = 'aria-current="page"' %}
                   {% endif %}
-
                   <li class="nav-item">
                     <a href="{{ item.url | url }}" {{ currentAttribute | safe }} {{ externalAttribute | safe }}>{{ item.text }}</a>
                   </li>

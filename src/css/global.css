@@ -215,22 +215,33 @@ body {
 	height: 100%;
 } */
     
-    body {
-        margin: 0;
-        padding: 0;
+     :root {
         --red: #75151e;
         --blue: rgb(30, 36, 96);
         --turqois: #2a6478;
         --sand: #c6a664;
         --white: #fff;
+        --bg-color: #fff;
         --text-color: rgb(29, 28, 28);
         --black-trans: rgba(29, 28, 28, 0.5);
         --blue-trans: rgba(30, 36, 96, 0.5);
         --headingfont: 'Caveat', sans-serif;
         --bodyfont: 'Oswald', sans-serif;
-        color: var(--text-color);
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
         font-family: var(--bodyfont);
         box-sizing: border-box;
+        color: var(--text-color);
+        background-color: var(--bg-color);
+    }
+    
+    body.dark {
+        color: var(--white);
+        background-color: var(--BG-Dark);
+        transition: color, background-color 500ms linear;
     }
     
     .container {
@@ -609,5 +620,36 @@ a:visited {
         }
         a.card {
             margin: 10px 0;
+        }
+    }
+    
+    @media (prefers-color-scheme: dark) {
+         :root {
+            --bg-color: rgb(38, 45, 58);
+            --text-color: #fff;
+        }
+        main h1 {
+            color: var(--white);
+        }
+        main h2 {
+            color: var(--sand);
+        }
+        .card {
+            background-color: var(--red);
+        }
+        .card>* {
+            color: var(--white);
+        }
+        footer.footer ul li a {
+            color: var(--white) !important;
+        }
+        footer.footer ul li a:hover {
+            color: var(--sand) !important;
+        }
+        footer.footer .footer__attribution a {
+            color: var(--white) !important;
+        }
+        footer.footer .footer__attribution a:hover {
+            color: var(--sand) !important;
         }
     }
