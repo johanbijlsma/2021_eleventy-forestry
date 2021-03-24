@@ -19,7 +19,7 @@ sections:
 - type: directory
   path: src/projects
   label: Work
-  create: all
+  create: documents
   match: "*.md"
   exclude: "*.json"
   templates:
