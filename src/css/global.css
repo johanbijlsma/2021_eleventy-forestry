@@ -591,6 +591,13 @@ a:visited {
         visibility: hidden;
     }
     
+    .project-link__container a {
+        background: var(--red);
+        color: var(--white);
+        padding: 10px;
+        margin: 10px 10px 50px;
+    }
+    
     @keyframes rotate {
         from {
             transform: rotate(0deg);
