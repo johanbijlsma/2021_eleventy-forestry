@@ -9,8 +9,10 @@ tags:
 description: My newest site made with 11ty (a Static Site Generator), forestry (a
   headless CMS), and hosted on Netlify.
 image: "/images/macbook.jpg"
-repo_url: 'https://github.com/johanbijlsma/2021_eleventy-forestry'
-url: 'https://blissful-feynman-113f65.netlify.app/'
+repo_url: https://github.com/johanbijlsma/2021_eleventy-forestry
+url: https://blissful-feynman-113f65.netlify.app/
+screenshots:
+- "/images/screenshot-2021.jpg"
 
 ---
 My newest site made with 11ty (a Static Site Generator), forestry (a headless CMS), and hosted on Netlify.
