@@ -29,3 +29,8 @@ fields:
     required: false
   label: URL
   description: The URL to the project (if publicly available and still online )
+- name: screenshots
+  type: image_gallery
+  config: {}
+  label: Screenshots
+  description: Screenshots of the project
