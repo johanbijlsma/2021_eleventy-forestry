@@ -40,7 +40,7 @@
 <div class="row">
  {% for post in postslist | reverse %}
 <a href="{{ post.url }}" class="onethird card">
-        <img src="{{ post.data.image}}" alt="">
+        <img src="{{ post.data.image}}" alt="" loading="lazy">
          <div class="card__meta">
           <time datetime="{{ post.date | htmlDateString }}">
             {{ post.date | readableDate }}

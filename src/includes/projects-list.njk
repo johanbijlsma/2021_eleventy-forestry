@@ -40,7 +40,7 @@
 <div class="row">
  {% for work in projectslist | reverse %}
 <a href="{{ work.url }}" class="onethird card">
-        <img src="{{ work.data.image}}" alt="">
+        <img src="{{ work.data.image}}" alt="" loading="lazy">
          <div class="card__meta">
           <time datetime="{{ work.date | htmlDateString }}">
             {{ work.date | readableDate }}
