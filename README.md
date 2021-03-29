@@ -1,4 +1,23 @@
-# Eleventy Duo
+# Johan Bijlsma's personal site, blog & portfolio
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/d46e08f8-a9b1-4946-a30c-bb4997c1acf9/deploy-status)](https://app.netlify.com/sites/blissful-feynman-113f65/deploys)
+
+## [Live demo](https://blissful-feynman-113f65.netlify.app/)
+
+As a starting point, I used [Eleventy Duo](https://github.com/yinkakun/eleventy-duo/), An Eleventy theme set up to utilize Forestry as a headless CMS.
+
+## Stack used for this project
+
+- Content comes from [Forestry](https://forestry.io/), a headless CMS that alows me to write in MarkDown, put in folders. All under version control using GIT
+
+- The template are made with [11ty](https://www.11ty.dev/), a Static Site Generator that uses Nunjucks: a templating language in JavaScript
+
+- CI/CD and hosting is done with [Netlify](https://netlify.com) 🚀
+
+- Sytax highlighting with [PrismJS](https://prismjs.com/)
+
+![demo site screenshot](src/images/screenshot-2021.jpg)
+<!--
 
 Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs.
 
@@ -171,4 +190,4 @@ You can set up a [remote admin](https://forestry.io/docs/editing/remote-admin/) 
 
 This project is licensed under the MIT License.
 
-Isn't Jamstack beautiful?
+Isn't Jamstack beautiful? -->
