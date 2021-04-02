@@ -229,6 +229,10 @@ body {
                 --bodyfont: 'Oswald', sans-serif;
             }
             
+            html {
+                scroll-behavior: smooth;
+            }
+            
             body {
                 margin: 0;
                 padding: 0;
@@ -236,6 +240,11 @@ body {
                 box-sizing: border-box;
                 color: var(--text-color);
                 background-color: var(--bg-color);
+                transition: color, background-color 500ms linear;
+            }
+            
+            svg.scroll-top {
+                fill: var(--red);
             }
             
             .container {
@@ -464,14 +473,30 @@ body {
             
             .list__card:nth-child(even) {
                 transform: translateX(-30%);
-                animation: slideinLeft 300ms 500ms ease-in forwards;
+                opacity: 0;
                 will-change: scroll-position;
+            }
+            
+            .list__card:nth-child(even).scrolled {
+                animation: slideinLeft 300ms 50ms ease-in forwards;
             }
             
             .list__card:nth-child(odd) {
                 transform: translateX(30%);
-                animation: slideinRight 300ms 500ms ease-in forwards;
                 will-change: scroll-position;
+                opacity: 0;
+            }
+            
+            .list__card:nth-child(odd).scrolled {
+                animation: slideinRight 300ms 50ms ease-in forwards;
+            }
+            
+            .row.row__list.scrolled .list__card:nth-child(odd) {
+                animation: slideinRight 300ms 50ms ease-in forwards;
+            }
+            
+            .row.row__list.scrolled .list__card:nth-child(even) {
+                animation: slideinLeft 300ms 50ms ease-in forwards;
             }
             
             @media (max-width: 640px) {
@@ -535,9 +560,10 @@ body {
             .card img {
                 grid-area: photo;
                 object-fit: cover;
-                max-height: 180px;
+                height: 180px;
                 transition: all 300ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
                 position: relative;
+                background-color: var(--blue-trans);
             }
             /* .card img::after {
     content: '';
@@ -863,6 +889,9 @@ a:visited {
                     transition: color, background-color 500ms linear;
                     --bg-color: rgb(38, 45, 58);
                     --text-color: #fff;
+                }
+                svg.scroll-top {
+                    fill: var(--sand);
                 }
                 .hero nav a:hover {
                     color: var(--sand);
