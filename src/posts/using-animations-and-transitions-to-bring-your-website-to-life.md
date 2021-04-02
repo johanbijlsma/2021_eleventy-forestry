@@ -9,7 +9,8 @@ description: ''
 image: "/images/animation.jpg"
 
 ---
-A couple off weeks ago, I organized a session for my colleagues at ShareValue to enlighten them with the ins & outs of transitions and animations.
+<p class="lead">
+A couple off weeks ago, I organized a session for my colleagues at ShareValue to enlighten them with the ins & outs of transitions and animations.</p>
 
 ## To get started
 
