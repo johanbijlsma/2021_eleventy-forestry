@@ -1,6 +1,6 @@
 ---
 title: Explaining modern Front-end lingo
-date: 2020-07-07T00:00:00+02:00
+date: 2020-07-07T00:00:00.000+02:00
 tags:
 - JavaScript
 - CSS
@@ -10,7 +10,6 @@ description: A brief overview of the most-used Front-end terms and names
 image: "/images/ferenc-almasi-fhAfLtHToCs-unsplash.jpg"
 
 ---
-
 <p class="lead">In a nutshell, front-end development is basically building websites and components that have a direct correlation with the end-user. In other words: The things that a front-end developer builds, is the thing an end user will see on his or her device.
 </p>
 
@@ -24,13 +23,11 @@ Ever since front-end existed, it has undergone a lot of changes. Frameworks, lib
 
 One thing that has definitely changed, is that Front-end code is being written, and the steps a develops should take before code will end up on a web server. Ten years ago, you would be able to build your entire site in notepad, save it as a .html file, and upload it through FTP to a web server. That was all that was necessary to put something online. In theory you could still do this, but in modern days that's not common anymore.
 
-
 ## Modern Front-End
 
 Today, most front-end developers are using tools, frameworks and other utilities to live easier. Basicly this means that  a developer writes less code than they used to do, by using tools and abstractions.
 
 For instance JavaScript gets replaced by TypeScript, JSX or babel. CSS by SCCS, Less or Stylus, and HTML by templating languages like Markdown, PUG or HAML. Or these choices were already made by a framework. But whatever happens, at the end everything gets resolved HTML, CSS and JavaScript files through a build step. This is necessary since a browser does not understand TypeScript, markdown, or SCSS files.
-
 
 ## Terms & Lingo in Front-End
 
@@ -40,6 +37,7 @@ With all the abstractions and tools, there are many buzz words, terms and name t
 <div class="list__card" loading="lazy">
 
 ### A11y (Accessibility)
+
 <p class="shadow">A</p>
 <img src="../../../images/modernFrontend-img/a11y.png">
 
@@ -57,6 +55,7 @@ An open source framework developed by Google. In 2020 version 9 was released. Th
 <div class="list__card" loading="lazy">
 
 ### Babel.js
+
 <p class="shadow">B</p>
 <img src="../../../images/modernFrontend-img/babeljs-icon.svg">
 
@@ -64,17 +63,16 @@ A JavaScript library that enables developers to write modern JavaScript (ES5 or 
 </div>
 <div class="list__card" loading="lazy">
 
-
 ### Bundler
-<img src="../../../images/modernFrontend-img/js_webpack-icon.svg">
 
+<img src="../../../images/modernFrontend-img/webpack-icon.svg">
 
 Well known Bundlers are Webpack, Parcel and Rollup. A bundler is a library that is configurable to walk through a series of steps like combining files, compiling files and creating deploy builds. The latter is a folder with a version of the application in a package that is as small as possible. Usually such a folder is called either "dist", "generated" or "build".
 </div>
 <div class="list__card" loading="lazy">
 
-
 ### CI/CD
+
 <p class="shadow">C</p>
 <img src="../../../images/modernFrontend-img/netlify-icon.svg">
 
@@ -99,6 +97,7 @@ Cascading Style Sheets is the technique for declaring the presentation of elemen
 <div class="list__card" loading="lazy">
 
 ### ECMAScript (ES5, ES6, etc.)
+
 <p class="shadow">E</p>
 <img src="../../../images/modernFrontend-img/js-logo.png">
 
@@ -107,6 +106,7 @@ The official standard of JavaScript is ECMAScript. ECMA (European Computer Manuf
 <div class="list__card" loading="lazy">
 
 ### GIT
+
 <p class="shadow">G</p>
 <img src="../../../images/modernFrontend-img/Git-Logo-1788C.png">
 
@@ -115,6 +115,7 @@ A version Control system developed by Linus Torwald that keeps track of changes 
 <div class="list__card" loading="lazy">
 
 ### HTML
+
 <p class="shadow">H</p>
 <img src="../../../images/modernFrontend-img/HTML5-Logo.svg">
 
@@ -123,13 +124,13 @@ Hyper Text Markup Language is a text based language that declares the structure 
 <div class="list__card" loading="lazy">
 
 ### JAMstack
+
 <p class="shadow">J</p>
 <img src="../../../images/modernFrontend-img/jamstack.svg">
 
 A method for building sites and applications with JavaScript, API's and Markup. The latter gets created by using a Static Site Generator such as HuGo, Jekyll, 11ty or Gatsby. For the API part, most developers use a headless CMS like Sanity, Story Blocks, Forestry. Or a classic CMS that also can be used through an API, like Wordpress.
 </div>
 <div class="list__card" loading="lazy">
-
 
 ### JavaScript
 
@@ -138,7 +139,6 @@ A method for building sites and applications with JavaScript, API's and Markup. 
 A scripting language that can be used in a browser directly. Originally written by Brendan Eich in only 10 days back in 1995. Newer versions of JavaScript are called ECMAScript.
 </div>
 <div class="list__card" loading="lazy">
-
 
 ### JSX
 
@@ -149,6 +149,7 @@ JSX is the templating language used by React and stands for JavaScript Extended.
 <div class="list__card" loading="lazy">
 
 ### Node.js
+
 <p class="shadow">N</p>
 <img src="../../../images/modernFrontend-img/Node.js_logo.svg">
 
@@ -157,6 +158,7 @@ Node.js started as an adapted version of Chrome's V8 JavaScript engine. It's ena
 <div class="list__card" loading="lazy">
 
 ### React
+
 <p class="shadow">R</p>
 <img src="../../../images/modernFrontend-img/react.svg">
 
@@ -166,6 +168,7 @@ One of the most popular JavaScript frameworks, developed by Facebook. Uses JSX a
 <div class="list__card" loading="lazy">
 
 ### Sass
+
 <p class="shadow">S</p>
 <img src="../../../images/modernFrontend-img/Sass_Logo_Color.svg">
 
@@ -182,6 +185,7 @@ Svelte is the new kid on the block, with a focus on creating a small package for
 <div class="list__card" loading="lazy">
 
 ### TypeScript
+
 <p class="shadow">T</p>
 <img src="../../../images/modernFrontend-img/ts-logo.svg">
 
@@ -190,6 +194,7 @@ A strongly typed version of JavaScript. With "typed" they mean that every variab
 <div class="list__card" loading="lazy">
 
 ### Vanilla JavaScript
+
 <p class="shadow">V</p>
 <img src="../../../images/modernFrontend-img/js-logo.png">
 
