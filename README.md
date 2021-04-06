@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/d46e08f8-a9b1-4946-a30c-bb4997c1acf9/deploy-status)](https://app.netlify.com/sites/blissful-feynman-113f65/deploys)
 
-## [Live demo](https://blissful-feynman-113f65.netlify.app/)
+## [Live demo](https://beta.johanbijlsma.nl/)
 
 As a starting point, I used [Eleventy Duo](https://github.com/yinkakun/eleventy-duo/), An Eleventy theme set up to utilize Forestry as a headless CMS.
 
