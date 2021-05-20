@@ -26,3 +26,14 @@ But what do I mean with Animations & Transitions? Is there a difference?
 
 * Animation: A change in attributes of an element over time
 * Transition: a change between 2 visual styles (for instance: a transition on hovering a button)
+
+There are several ways to create animations and transitions. I will now discuss the main two options.
+
+#### CSS
+
+CSS offers a lot off ways to create animations and transitions. The latter, in it's simplest form looks something like this:
+
+     /* property name | duration | timing function | delay */
+     transition: all 1s linear 0,5s;
+
+Now imagine a button with an orange background-color, and a white background-color on hover. When the line of CSS above gets added to the hover state of that button, the background-color will transition between orange and white in a linear fashion, starting after a 0,5 second delay. The transition itself will take 1 second. The result will look something like this: 
