@@ -36,4 +36,26 @@ CSS offers a lot off ways to create animations and transitions. The latter, in i
      /* property name | duration | timing function | delay */
      transition: all 1s linear 0,5s;
 
-Now imagine a button with an orange background-color, and a white background-color on hover. When the line of CSS above gets added to the hover state of that button, the background-color will transition between orange and white in a linear fashion, starting after a 0,5 second delay. The transition itself will take 1 second. The result will look something like this: 
+Now imagine a button with an orange background-color, and a white background-color on hover. When the line of CSS above gets added to the hover state of that button, the background-color will transition between orange and white in a linear fashion, starting after a 0,5 second delay. The transition itself will take 1 second. 
+
+The result will look something like this: 
+
+![](https://www.sharevalue.nl/images/sharevalue/blogs/hover-transition.gif)
+
+Animations work in a different way: The animations are defined in a separate block in the CSS with the `@keyframes `syntax.  Within a `@keyframes` block you declare  the changes from the beginning to the end of the animation.
+
+    @keyframes move {
+    	from {
+    		transform: translate3d(0, 0, 0);
+    	} to {
+    		transform: translate3d(90vw, 0, 0);
+    	}
+    }
+
+In this `@keyframes` block with the name "move", I want to animate an element from 0 to 90% of the viewport-width. But right now nothing will happen. That's because the animation needs to be added to an element.
+
+    animation: move 3000ms 200ms ease-out alternate infinite;
+
+In the example above we say that the element has an animation with name "move", with a duration of 3 seconds, and will start after a delay of 200 milliseconds . `alternate` is a "play direction" attribute that tells that animation to run both forwards and backwards and `infinite` that this animation will never stop.
+
+![](https://www.sharevalue.nl/images/sharevalue/blogs/keyframe-animation.gif)
