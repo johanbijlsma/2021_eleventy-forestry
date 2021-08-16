@@ -93,22 +93,22 @@ A quick overview:
 
     _JavaScript has no build in transitions, like CSS does. Of course you could combine 2 JavaScript animations to achieve the same result_
 * **Memory and GPU friendly**
-  * CSS: yes 
+  * CSS: yes
   * JavaScript: it's complicated
 
     _CSS animations consume generally less memory and GPU usage. With JavaScript you could animate untill the browser crashes. Also, JavaScript animations go over the main thread, which could possibly block other events or data fetching_
 * **Time based animations**
-  * CSS: yes 
+  * CSS: yes
   * JavaScript: yes
 
-    _CSS animations are always time based. Although this is also an option with JavaScript animations, it is also possible to create animations based on events, like input or state changes_ 
+    _CSS animations are always time based. Although this is also an option with JavaScript animations, it is also possible to create animations based on events, like input or state changes_
 * **Animations based on dynamic content or state changes**
-  * CSS: no 
+  * CSS: no
   * JavaScript: yes
 
     _Animations based on user input, or based on state are only possible with JavaScript. The combination is also possible: starting a CSS animation by adding a class to an element for instance_
-* **Complex animations**  
-  * CSS: not practical, but it's possible 
+* **Complex animations**
+  * CSS: not practical, but it's possible
   * JavaScript: yes
 
-    _Complex animations are possible with both CSS and JavaScript. But using CSS complex animations can be quite laborious. In that area JavaScript offers a lot of methods for calculations and automation. Especially bu using libraries like Greensock_  
+    _Complex animations are possible with both CSS and JavaScript. But using CSS complex animations can be quite laborious. In that area JavaScript offers a lot of methods for calculations and automation. Especially by using libraries like Greensock_.

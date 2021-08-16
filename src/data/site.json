@@ -1,49 +1,53 @@
 {
-    "name": "Johan Bijlsma",
-    "description": "Johan's personal site, Blog and portfolio. Contains stuff about Front-end, Drums, Coffee and Family.",
-    "url": "https://beta.johanbijlsma.nl/",
-    "author": {
-        "name": "Johan Bijlsma",
-        "email": "johan@johanbijlsma.nl",
-        "twitterHandle": "johanbijlsma"
-    },
-    "defaultSocialImage": "/images/johan-400x400.jpg",
-    "headerLinks": [{
-            "text": "Home",
-            "url": "/",
-            "external": false
-        },
-        {
-            "text": "Blog",
-            "url": "/blog",
-            "external": false
-        },
-        {
-            "text": "Portfolio",
-            "url": "/projects",
-            "external": false
-        }
-    ],
-    "socialLinks": [{
-            "text": "Instagram",
-            "url": "https://instagram.com/johanbijlsma",
-            "external": true
-        },
-        {
-            "text": "GitHub",
-            "url": "https://github.com/johanbijlsma/",
-            "external": true
-        },
-        {
-            "text": "Twitter",
-            "url": "https://twitter.com/johanbijlsma",
-            "external": true
-        }
-    ],
-    "footerLinks": [{
-        "text": "RSS",
-        "url": "/feed.xml",
-        "external": true
-    }],
-    "showFooterAttribution": true
+	"name": "Johan Bijlsma",
+	"description": "Johan's personal site, Blog and portfolio. Contains stuff about Front-end, Drums, Coffee and Family.",
+	"url": "https://johanbijlsma.nl/",
+	"author": {
+		"name": "Johan Bijlsma",
+		"email": "johan@johanbijlsma.nl",
+		"twitterHandle": "johanbijlsma"
+	},
+	"defaultSocialImage": "/images/johan-400x400.jpg",
+	"headerLinks": [
+		{
+			"text": "Home",
+			"url": "/",
+			"external": false
+		},
+		{
+			"text": "Blog",
+			"url": "/blog",
+			"external": false
+		},
+		{
+			"text": "Portfolio",
+			"url": "/projects",
+			"external": false
+		}
+	],
+	"socialLinks": [
+		{
+			"text": "Instagram",
+			"url": "https://instagram.com/johanbijlsma",
+			"external": true
+		},
+		{
+			"text": "GitHub",
+			"url": "https://github.com/johanbijlsma/",
+			"external": true
+		},
+		{
+			"text": "Twitter",
+			"url": "https://twitter.com/johanbijlsma",
+			"external": true
+		}
+	],
+	"footerLinks": [
+		{
+			"text": "RSS",
+			"url": "/feed.xml",
+			"external": true
+		}
+	],
+	"showFooterAttribution": true
 }
