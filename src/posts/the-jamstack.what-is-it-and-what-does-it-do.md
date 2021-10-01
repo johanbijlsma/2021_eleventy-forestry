@@ -38,3 +38,29 @@ Because all parts are generated separately before being served through a CDN, th
 To demonstrate te use of the Jamstack, I made a fun demo with Gatsby (a static-site generator based on React). For the API part i chose Sanity. As a CDN I used Netlify. 
 
 ![A model describing all the moving parts of my Jamstack demo](https://www.sharevalue.nl/images/sharevalue/blogs/jamstack_onderdelen.png "A model describing all the moving parts of my Jamstack demo")
+
+#### The J of JavaScript
+
+Gatsby is a great way to build static sites and applications. Because it is based on React, developers can start easily because of the popularity of React.
+
+#### The A of API's
+
+All the content is written and maintained in Sanity; a headless CMS that can be customised to whats needed.
+
+#### The M of Markup
+
+The Markup in my demo is set up in Gatsby as well. Here you can build you templates that will be populated with content out of Sanity
+
+## Version control and Continuous Deployment
+
+Of course we use Git for version control. In this case it is a public repo: [https://github.com/johanbijlsma/JAMdemo](https://github.com/johanbijlsma/JAMdemo "https://github.com/johanbijlsma/JAMdemo"). Everytime a commit is pushed, the project is build and deployed by Netlify. This last is called Continuous Deployment. 
+
+The Demo can be found here: [https://jams-jams-jams.netlify.com/](https://jams-jams-jams.netlify.com/ "https://jams-jams-jams.netlify.com/")
+
+![](https://www.sharevalue.nl/images/sharevalue/blogs/demo_JAMstack.jpg)
+
+## To conclude
+
+The Jamstack has a lot to offer. Because of the short Time-to-market an by combining external services, it is a great opportunity for development teams with no Back-end capacity in-house. I can say that I really love building sites with the Jamstack methodology, and since I discovered Netlify as a hosting party, I went all in. They are primary way to host my sites an applications.
+
+This blog post was written by myself in Dutch and originally released on my employers website on the 4th of July 2019.
