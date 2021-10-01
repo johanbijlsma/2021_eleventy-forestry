@@ -22,4 +22,5 @@ fields:
   description: The image that will published above the post
 pages:
 - src/posts/explaining-modern-front-end-lingo.md
+- src/posts/the-jamstack.what-is-it-and-what-does-it-do.md
 - src/posts/using-animations-and-transitions-to-bring-your-website-to-life.md
