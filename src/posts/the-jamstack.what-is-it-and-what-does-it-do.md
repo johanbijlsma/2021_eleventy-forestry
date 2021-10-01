@@ -11,7 +11,7 @@ image: "/images/jamstack_logo_darkbg.svg"
 ---
 A couple of years ago, a new phenomenon appeared in the Front-end world: the Jamstack. For people unknown to this way of developing, it might sound like some sticky sandwiches piled on top of each other. But actually it is a fantastic way to build Front-end applications.
 
-# What is a Jamstack?   
+# What is a Jamstack?
 
 The "Jam" part in Jamstack is an acronym that stands for:
 
@@ -29,6 +29,12 @@ As shown in the model, it clear to see that the jamstack is shorter that a tradi
 
 ## So multiple connections are faster than one traditional architecture?
 
-Yes, there is a difference between load time on rendering and on compiling: 
+Yes, there is a difference between load time on rendering and on compiling:
 
-Because all parts are generated separately before being served through a CDN, the render-time will result in a quicker loading site. 
+Because all parts are generated separately before being served through a CDN, the render-time will result in a quicker loading site.
+
+## Demo time: JAMdemo
+
+To demonstrate te use of the Jamstack, I made a fun demo with Gatsby (a static-site generator based on React). For the API part i chose Sanity. As a CDN I used Netlify. 
+
+![A model describing all the moving parts of my Jamstack demo](https://www.sharevalue.nl/images/sharevalue/blogs/jamstack_onderdelen.png "A model describing all the moving parts of my Jamstack demo")
