@@ -35,25 +35,25 @@ Because all parts are generated separately before being served through a CDN, th
 
 ## Demo time: JAMdemo
 
-To demonstrate te use of the Jamstack, I made a fun demo with Gatsby (a static-site generator based on React). For the API part i chose Sanity. As a CDN I used Netlify. 
+To demonstrate te use of the Jamstack, I made a fun demo with Gatsby (a static-site generator based on React). For the API part i chose Sanity. As a CDN I used Netlify.
 
 ![A model describing all the moving parts of my Jamstack demo](https://www.sharevalue.nl/images/sharevalue/blogs/jamstack_onderdelen.png "A model describing all the moving parts of my Jamstack demo")
 
-#### The J of JavaScript
+### The J of JavaScript
 
 Gatsby is a great way to build static sites and applications. Because it is based on React, developers can start easily because of the popularity of React.
 
-#### The A of API's
+### The A of API's
 
 All the content is written and maintained in Sanity; a headless CMS that can be customised to whats needed.
 
-#### The M of Markup
+### The M of Markup
 
 The Markup in my demo is set up in Gatsby as well. Here you can build you templates that will be populated with content out of Sanity
 
 ## Version control and Continuous Deployment
 
-Of course we use Git for version control. In this case it is a public repo: [https://github.com/johanbijlsma/JAMdemo](https://github.com/johanbijlsma/JAMdemo "https://github.com/johanbijlsma/JAMdemo"). Everytime a commit is pushed, the project is build and deployed by Netlify. This last is called Continuous Deployment. 
+Of course we use Git for version control. In this case it is a public repo: [https://github.com/johanbijlsma/JAMdemo](https://github.com/johanbijlsma/JAMdemo "https://github.com/johanbijlsma/JAMdemo"). Everytime a commit is pushed, the project is build and deployed by Netlify. This last is called Continuous Deployment.
 
 The Demo can be found here: [https://jams-jams-jams.netlify.com/](https://jams-jams-jams.netlify.com/ "https://jams-jams-jams.netlify.com/")
 
