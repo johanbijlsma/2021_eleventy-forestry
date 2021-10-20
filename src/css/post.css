@@ -39,18 +39,32 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: var(--text-color);
 }
 
 .post__pagination > *:only-child {
-  margin-right: auto;
-  margin-left: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .post__pagination a {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
+    color: var(--text-color);
 }
 .post__pagination span {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+
+@media (prefers-color-scheme: dark){
+    .post {
+        color: var(--white);
+    }
+    .post > a {
+        color: var(--white);
+    }
+    .post > h4 {
+        color: var(--white);
+    }
 }

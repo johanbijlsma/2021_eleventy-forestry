@@ -11,20 +11,6 @@
     --text-6xl: 5rem;
 }
 
-
-/* body {
-  font-size: var(--text-lg);
-  line-height: 1.54;
-  color: var(--color);
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  font-feature-settings: 'liga', 'tnum', 'case', 'calt', 'zero', 'ss01', 'locl';
-  font-variant-ligatures: contextual;
-  -webkit-overflow-scrolling: touch;
-  -webkit-text-size-adjust: 100%;
-  font-family: 'IBM Plex Sans', sans-serif;
-} */
-
 h1,
 h2,
 h3,
@@ -33,7 +19,7 @@ h5,
 h6 {
     line-height: 1.3;
     font-weight: 400;
-    color: rgb(41, 41, 41);
+
 }
 
 h1 {
@@ -52,7 +38,7 @@ h4 {
     font-size: var(--text-xl);
 }
 
-h4 {
+h5 {
     font-size: var(--text-lg);
 }
 
