@@ -34,3 +34,5 @@ fields:
   config: {}
   label: Screenshots
   description: Screenshots of the project
+pages:
+- src/projects/2018-personal-site-with-portfolio.md
