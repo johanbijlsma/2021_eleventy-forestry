@@ -10,7 +10,6 @@ image: "/images/macbook.jpg"
 repo_url: https://github.com/johanbijlsma/personalsite2018
 url: https://2018.johanbijlsma.nl
 screenshots:
-- "/images/screenshot-2022-08-18-at-08-06-06.png"
 - "/images/screenshot-2022-08-17-at-20-24-49.png"
 
 ---
